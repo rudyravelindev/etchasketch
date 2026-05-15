@@ -1,8 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background-color: aqua;
 }
-h1 {
+h1,
+h2 {
   text-align: center;
-  padding: 32px;
-  margin: 32px;
+  padding: 22px;
+  margin: 22px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  border: 1px solid black;
+}
+.hovered {
+  background-color: blue;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-size: x-large;
 }
